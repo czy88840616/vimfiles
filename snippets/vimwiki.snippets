@@ -1,0 +1,54 @@
+# vimwiki.snippet via Frank<yyfrankyy@gmail.com>
+# f2e.us
+
+snippet wiki
+	= ${1:WikiWord} =
+	%toc
+
+	== ${2:Introduction} ==
+
+	${3:}
+
+	== ${4:References} ==
+
+	 # ${5:References}
+# head
+snippet =
+	= ${1:HEAD} =
+	
+	${2:}
+snippet ==
+	== ${1:HEAD} ==
+	
+	${2:}
+snippet ===
+	=== ${1:HEAD} ===
+	
+	${2:}
+snippet ====
+	==== ${1:HEAD} ====
+	
+	${2:}
+snippet =====
+	===== ${1:HEAD} =====
+	
+	${2:}
+# list
+snippet ul
+	 * ${1:listitem}
+snippet ol
+	 # ${1:listitem}
+# code
+snippet {{
+	{{{>
+	${1://Codes}
+	}}}
+snippet s
+	$: ${1:# bash command}
+snippet `
+	\`${1:inline code}\`
+# links
+snippet [[
+	[[${1:Wikiword}]]${2:}
+snippet [
+	[${1:Href} ${2:Text}]${2:}

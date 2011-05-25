@@ -1,0 +1,18 @@
+<<<<<<< HEAD
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =6
+let g:netrw_dirhist_1='/home/wenhe/work/dev/search'
+let g:netrw_dirhist_2='/home/wenhe/work/dev/leapfrog_v2.0.2.1_xuanbei_20101206'
+let g:netrw_dirhist_3='/home/wenhe/work/dev/search'
+let g:netrw_dirhist_4='/home/wenhe/projects/nginx-0.9.3'
+let g:netrw_dirhist_5='/home/wenhe/work/dev/buy_platform_frontend_20110212/.svn/props'
+let g:netrw_dirhist_6='/home/wenhe/work/dev/search/template/common/dpl'
+=======
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =5
+let g:netrw_dirhist_1='/home/wenhe/work/dev/search'
+let g:netrw_dirhist_2='/home/wenhe/work/dev/leapfrog_v2.0.2.1_xuanbei_20101206'
+let g:netrw_dirhist_3='/home/wenhe/work/dev/search'
+let g:netrw_dirhist_4='/home/wenhe/projects/nginx-0.9.3'
+let g:netrw_dirhist_5='/home/wenhe/work/dev/buy_platform_frontend_20110212/.svn/props'
+>>>>>>> 0a5440881d76b56f6e7a6394465a8d328872ce73

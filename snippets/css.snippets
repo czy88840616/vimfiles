@@ -1,0 +1,124 @@
+# CSS Snippets via Frank<yyfrankyy@gmail.com>
+# TODO CSS3 Selectors
+# 	   Add Some Hacks
+# block
+snippet .
+	.${1:class} {
+		${2:/* CSS Here */}
+	}
+snippet #
+	#${1:id} {
+		${2:/* CSS Here */}
+	}
+snippet {
+	{
+		${1:cssType}: ${2:value};
+	}
+# background
+snippet bg
+	background: url(${1:url}) ${2:no-repeat} ${3:0}px ${4:0}px;
+snippet bgc
+	background-color: #${1:000};
+snippet bgp
+	background-position: ${1:0}px ${2:0}px;
+snippet bgr
+	background-repeat: ${1:no-repeat};
+# comment
+snippet /**
+	/**
+	 * ${1}
+	 */
+# color
+snippet c
+	${1:color}: #${2:000};
+# padding/margin
+snippet pd
+	${1:padding}: ${2:0};
+snippet pdl
+	${1:padding-left}: ${2:0};
+snippet pdr
+	${1:padding-right}: ${2:0};
+snippet pdt
+	${1:padding-top}: ${2:0};
+snippet pdb
+	${1:padding-bottom}: ${2:0};
+snippet mg
+	${1:margin}: ${2:0};
+snippet mgl
+	${1:margin-left}: ${2:0};
+snippet mgr
+	${1:margin-right}: ${2:0};
+snippet mgt
+	${1:margin-top}: ${2:0};
+snippet mgb
+	${1:margin-bottom}: ${2:0};
+# font-size
+snippet f
+	${1:font}: ${2:12px/100%};
+snippet fs
+	${1:font-size}: ${2:12}px;
+snippet fw
+	${1:font-weight}: ${2:bold};
+snippet lh
+	line-height: ${1:12}px;
+snippet ta
+	text-align: ${1:center};
+# position
+snippet po
+	position: ${1:static};
+snippet poa
+	position: absolute;
+snippet pof
+	position: fixed;
+snippet por
+	position: relative;
+# region
+snippet t
+	top: ${1:0}px;
+snippet l
+	left: ${1:0}px;
+snippet b
+	bottom: ${1:0}px;
+snippet r
+	right: ${1:0}px;
+snippet w
+	width: ${1:0}px;
+snippet h
+	height: ${1:0}px;
+# float
+snippet fl
+	float: ${1:left};
+snippet o
+	overflow: ${1:hidden};
+# clear float
+snippet :af
+	:after {
+		content: "\20";
+		display: block;
+		clear: both;
+		height: 0;
+	}
+snippet zi
+	z-index: ${1:1};
+snippet cur
+	cursor: ${1:pointer};
+# border
+snippet bo
+	border: ${1:1}px ${2:solid} #${3:000};
+snippet bol
+	border-left: ${1:1}px ${2:solid} #${3:000};
+snippet bor
+	border-right: ${1:1}px ${2:solid} #${3:000};
+snippet bot
+	border-top: ${1:1}px ${2:solid} #${3:000};
+snippet bob
+	border-bottom: ${1:1}px ${2:solid} #${3:000};
+# Fold
+snippet /*{
+	/* ${1:COMMENTS} {{{ */
+	/* }}} */
+snippet /*}
+	/* }}} */
+# Comment
+snippet /*
+	/* ${1:COMMENTS} */
